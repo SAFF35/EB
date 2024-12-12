@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akses Ebook</title>
+    <style>
+        /* Latar belakang halaman */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #00008B, #4B0082); /* Gradiasi biru dan ungu tua */
+            text-align: center;
+            font-weight: bold; /* Teks tebal */
+            color: orange; /* Warna teks latar belakang utama */
+        }
+
+        /* Judul dan paragraf */
+        h1, h2, p {
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        /* Papan untuk gambar */
+        .content-card {
+            background: #fff; /* Warna putih untuk papan */
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Bayangan */
+            max-width: 300px; /* Ukuran papan lebih kecil */
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        /* Gaya untuk gambar */
+        .ebook-image {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            cursor: pointer; /* Gambar menjadi interaktif */
+            transition: transform 0.3s ease;
+        }
+
+        .ebook-image:hover {
+            transform: scale(1.05); /* Membesar sedikit saat hover */
+        }
+
+        /* Tombol dengan gradiasi */
+        .toggle-button {
+            background: linear-gradient(to right, #FFD700, #FFA500); /* Gradiasi kuning ke orange */
+            color: #333; /* Warna teks hitam */
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin: 10px auto;
+            display: block;
+        }
+
+        .toggle-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Papan penjelasan */
+        .content-box {
+            background: linear-gradient(to bottom, #FFD700, #FFA500); /* Gradiasi kuning ke orange */
+            color: #333; /* Warna teks hitam */
+            font-size: 16px;
+            line-height: 1.6;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Bayangan */
+            margin: 20px auto;
+            max-width: 300px; /* Ukuran papan penjelasan kecil */
+            display: none; /* Disembunyikan secara default */
+            text-align: justify;
+        }
+
+        /* Menghapus bayangan teks dari tombol dan penjelasan tombol */
+        .toggle-button, .content-box {
+            text-shadow: none;
+            color: #333; /* Teks hitam tanpa bayangan */
+        }
+    </style>
+</head>
+<body>
+    <!-- Judul dan Deskripsi -->
+    <h1>Akses Ebook Anda</h1>
+    <h2>Silahkan pilih 2 Ebook yang Anda minati, Klik Gambar Ebooknya untuk meminta Aksesnya</h2>
+    <p>Nantikan kedepannya Update Ebook-Ebook berkualitas lainnya</p>
+
+    <!-- Ebook 1 -->
+    <div class="content-card">
+        <a href="https://Wa.me/6289522704503?text=Hallo%20Admin%20saya%20pilih%20ebook%20berjudul%20Atomic%20habits%20tolong%20minta%20Aksesnya%3F%0A%0ANama%20saya%3A%0AKode%20ID%3A%0AEmail%3A%0APassword%3A%0A____________" target="_blank">
+            <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241120_173757.png?w=1024" alt="Ebook 1" class="ebook-image">
+        </a>
+    </div>
+    <button class="toggle-button" onclick="toggleContent('content-box-1')">👉 Penjelasan Ebook 1</button>
+    <div class="content-box" id="content-box-1">
+        <p>Atomic Habits</p>
+      <p>
+<p>Ingin mengubah hidupmu menjadi lebih baik? Mulailah dari hal-hal kecil. "Atomic Habits" mengajarkanmu bahwa perubahan besar dimulai dari kebiasaan kecil yang dilakukan secara konsisten. Bayangkan hidupmu seperti sebuah taman. Dengan rajin menyiram dan merawat tanaman setiap hari, tamanmu akan tumbuh subur dan indah. Begitu pula dengan kebiasaanmu. Dengan mengubah kebiasaan kecil, kamu akan melihat perubahan besar dalam hidupmu.</p>
+<p>
+      <p>Buku ini akan membantumu membangun kebiasaan positif dan menghilangkan kebiasaan buruk. James Clear, pertama pencetus metode ini, memberikan panduan praktis dan mudah diikuti untuk menerapkan perubahan dalam hidupmu. Mulai dari mengatur lingkungan sekitar, memberikan penghargaan pada diri sendiri, hingga mengatasi hambatan, semua dijelaskan secara rinci. Dengan "Atomic Habits", kamu akan memiliki semua alat yang dibutuhkan untuk mencapai tujuanmu.</p>
+    </div>
+
+    <!-- Ebook 2 -->
+    <div class="content-card">
+        <a href="https://Wa.me/6289522704503?text=Hallo%20Admin%20saya%20pilih%20ebook%20berjudul%20103%20Rahasia%20Strategi%20Marketing%20tolong%20minta%20Aksesnya%3F%0A%0ANama%20saya%3A%0AKode%20ID%3A%0AEmail%3A%0APassword%3A%0A____________" target="_blank">
+            <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241120_173812.png?w=1024" alt="Ebook 2" class="ebook-image">
+        </a>
+    </div>
+    <button class="toggle-button" onclick="toggleContent('content-box-2')">👉 Penjelasan Ebook 2</button>
+    <div class="content-box" id="content-box-2">
+        <p>103 Rahasia Strategi Marketing</p>
+<p></p>
+<p></p>Ingin bisnis Anda sukses besar? Ebook ini adalah panduan lengkap yang akan mengajarkan Anda semua yang perlu diketahui tentang dunia marketing. Mulai dari mengenal pelanggan Anda lebih dalam, membangun merek yang kuat, hingga menguasai berbagai strategi pemasaran digital dan offline, semua akan dijelaskan secara detail. Dengan menerapkan tips dan trik yang ada di buku ini, Anda akan mampu menarik lebih banyak pelanggan, meningkatkan penjualan, dan membangun bisnis yang sukses dan berkelanjutan.</p>
+      <p></p>
+<p>Buku ini akan membawa Anda dari dasar-dasar marketing hingga teknik-teknik pemasaran yang paling mutakhir. Anda akan belajar cara membuat strategi marketing yang efektif, mengukur keberhasilan kampanye Anda, dan mengambil keputusan bisnis yang tepat berdasarkan data. Selain itu, Anda juga akan mendapatkan wawasan tentang pentingnya marketing yang berkelanjutan dan ramah lingkungan. Dengan ebook ini, Anda akan memiliki semua alat yang Anda butuhkan untuk menjadi seorang marketer yang sukses.</p>
+    </div>
+
+    <!-- Ebook 3 -->
+    <div class="content-card">
+        <a href="https://Wa.me/6289522704503?text=Hallo%20Admin%20saya%20pilih%20ebook%20berjudul%2096%20Contoh%20Copywriting%20yang%20Ajaib%20tolong%20minta%20Aksesnya%3F%0A%0ANama%20saya%3A%0AKode%20ID%3A%0AEmail%3A%0APassword%3A%0A____________" target="_blank">
+            <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241120_173630.png?w=1024" alt="Ebook 3" class="ebook-image">
+        </a>
+    </div>
+    <button class="toggle-button" onclick="toggleContent('content-box-3')">👉 Penjelasan Ebook 3</button>
+    <div class="content-box" id="content-box-3">
+        <p>96 contoh Copywriting yang Ajaib</p>
+<p></p>
+<p></p>Bosan dengan kata-kata yang biasa saja? Ingin tulisanmu mampu memikat hati dan dompet pelanggan? Buku ini adalah jawabannya! "96 Contoh Copywriting yang Ajaib" akan membongkar rahasia di balik kata-kata yang mampu mengubah pikiran dan memicu tindakan.</p>
+<p></p>
+<p>Bayangkan kata-katamu seperti mantra ajaib yang mampu mengubah prospek menjadi pelanggan setia. Dengan buku ini, kamu akan belajar bagaimana menyusun kata-kata yang tepat untuk membujuk, meyakinkan, dan membuat orang tak bisa menolak tawaranmu. Mulai dari prinsip dasar copywriting hingga teknik-teknik canggih yang digunakan oleh para ahli, semua akan diulas secara lengkap.</p>
+<p></p>
+<p>Dengan contoh-contoh nyata dan studi kasus yang menarik, kamu akan langsung bisa mempraktikkan apa yang telah kamu pelajari.  Tidak hanya itu, kamu juga akan mendapatkan inspirasi dari berbagai jenis produk dan layanan. Jadi, tunggu apalagi? Yuk, jadikan tulisanmu lebih menarik dan hasilkan penjualan yang mengagumkan!.</p>
+    </div>
+
+  <!-- Ebook 4 -->
+    <div class="content-card">
+        <a href="https://Wa.me/6289522704503?text=Hallo%20Admin%20saya%20pilih%20ebook%20berjudul%20Law%20Of%20Attraction%20tolong%20minta%20Aksesnya%3F%0A%0ANama%20saya%3A%0AKode%20ID%3A%0AEmail%3A%0APassword%3A%0A____________" target="_blank">
+            <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241120_180325.png?w=1024" alt="Ebook 4" class="ebook-image">
+        </a>
+    </div>
+    <button class="toggle-button" onclick="toggleContent('content-box-4')">👉 Penjelasan Ebook 4</button>
+    <div class="content-box" id="content-box-4">
+        <p>Law Of Attraction</p>
+      <p></p>
+      <p>Ebook berjudul *Law of Attraction* ini menjelaskan konsep sederhana namun kuat tentang bagaimana pikiran dan perasaan kita dapat menarik hal-hal tertentu ke dalam hidup. Inti dari *Law of Attraction* adalah apa yang kita fokuskan—baik atau buruk—akan memengaruhi realitas kita. Jika kita berpikir positif dan membayangkan hal-hal baik, maka kita cenderung menarik pengalaman, peluang, dan hasil positif. Sebaliknya, jika kita terus-menerus memikirkan hal-hal negatif, hasil negatif juga akan lebih sering muncul. Ebook ini dirancang untuk membantu pembaca memahami bahwa kekuatan utama ada di dalam diri mereka sendiri.</p>
+<p></p>
+<p>Melalui pembahasan yang ringan dan praktis, ebook ini memberikan panduan langkah demi langkah untuk menerapkan *Law of Attraction* dalam kehidupan sehari-hari. Mulai dari cara mengatur pikiran, membangun rasa syukur, hingga melatih visualisasi impian, semuanya disajikan dengan gaya bahasa yang mudah dipahami. Ebook ini cocok bagi siapa saja yang ingin mengubah hidup mereka menjadi lebih baik dengan memanfaatkan potensi pikiran dan emosi secara maksimal. Membaca ebook ini seperti berbincang dengan teman yang memberi semangat dan inspirasi.</p>
+    </div>
+
+    <!-- Ebook 5 -->
+    <div class="content-card">
+        <a href="https://Wa.me/6289522704503?text=Hallo%20Admin%20saya%20pilih%20ebook%20berjudul%20101%20Nasehat%20Mengubah%20Hidup%20tolong%20minta%20Aksesnya%3F%0A%0ANama%20saya%3A%0AKode%20ID%3A%0AEmail%3A%0APassword%3A%0A____________" target="_blank">
+            <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241120_173903.png?w=1024" alt="Ebook 3" class="ebook-image">
+        </a>
+    </div>
+    <button class="toggle-button" onclick="toggleContent('content-box-5')">👉 Penjelasan Ebook 5</button>
+    <div class="content-box" id="content-box-5">
+        <p>101 Nasehat Mengubah Hidup</p>
+<p></p>
+<p>Bosan dengan rutinitas? Ingin menemukan makna hidup yang lebih dalam? Buku ini adalah jawabannya!</p>
+<p></p>
+<p>Kumpulan 101 nasihat bijak dari menginspirasi dan menggugah hati Anda. Dengan bahasa yang sederhana namun penuh makna, setiap kata-kata mutiara ini akan menjadi panduan Anda dalam menjalani hidup.</p>
+<p></p>
+<p>Kenapa Anda harus membaca buku ini?</p>
+
+<p>1. Inspirasi: Dapatkan suntikan semangat baru untuk meraih tujuan hidup.</p>
+<p>2. Hikmah: Temukan jawaban atas pertanyaan-pertanyaan mendasar tentang kehidupan.</p>
+<p>3. Motivasi: Bangkitkan kembali semangat juang yang sempat padam.</p>
+<p>4. Pengetahuan: Perkaya wawasan dengan pemikiran-pemikiran dari tokoh-tokoh ternama.</p>
+    </div>
+
+  <!-- Ebook 6 -->
+    <div class="content-card">
+        <a href="https://Wa.me/6289522704503?text=Hallo%20Admin%20saya%20pilih%20ebook%20berjudul%20Law%20of%20attraction%20dalam%20perspektif%20Al-Qur'an%20dan%20hadits%20tolong%20minta%20Aksesnya%3F%0A%0ANama%20saya%3A%0AKode%20ID%3A%0AEmail%3A%0APassword%3A%0A____________" target="_blank">
+            <img src="https://affiliate035.wordpress.com/wp-content/uploads/2024/12/20241120_173833.png?w=1024" alt="Ebook 3" class="ebook-image">
+        </a>
+    </div>
+    <button class="toggle-button" onclick="toggleContent('content-box-6')">👉 Penjelasan Ebook 6</button>
+    <div class="content-box" id="content-box-6">
+        <p>Law of attraction dalam perspektif Al -Qur'an dan hadits</p>
+<p></p>
+<p>Ingin hidupmu penuh berkah dan keberuntungan? Ebook ini akan membantumu menggabungkan keajaiban Law of Attraction dengan hikmah Al-Qur'an dan Hadits. Kamu akan belajar bagaimana pikiran positif, doa, dan tindakan nyata dapat menarik hal-hal baik ke dalam hidupmu. Dengan memahami konsep energi dalam Islam dan menerapkan prinsip-prinsip syariat, kamu bisa mewujudkan impianmu dan meraih kesuksesan dunia akhirat.</p>
+<p></p>
+<p>Buku ini akan memandu langkah demi langkah untuk mengaplikasikan Law of Attraction dalam kehidupan sehari-hari. Mulai dari membangun pola pikir positif, meningkatkan kualitas ibadah, hingga mengatasi tantangan hidup, semuanya dijelaskan dengan jelas dan disertai contoh-contoh nyata. Kamu juga akan belajar bagaimana menghindari kesalahpahaman dan menjaga keimanan dalam penerapan Law of Attraction. Dengan begitu, kamu bisa meraih manfaat yang maksimal tanpa menyimpang dari ajaran Islam.</p>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        function toggleContent(id) {
+            const contentBox = document.getElementById(id);
+            if (contentBox.style.display === 'none' || contentBox.style.display === '') {
+                contentBox.style.display = 'block'; // Tampilkan papan
+            } else {
+                contentBox.style.display = 'none'; // Sembunyikan papan
+            }
+        }
+    </script>
+</body>
+
+  <p></p>
+  <p>Berikan Saran Anda untuk Update judul Ebook selanjutnya atau saran hal apapun</p>
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .button {
+            background-color: #006400; /* Hijau tua */
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Bayangan hitam */
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #004d00; /* Warna sedikit lebih gelap saat hover */
+        }
+    </style>
+    <title>Tombol Saran Ebook</title>
+</head>
+<body>
+
+    <a href="https://wa.me/6289522704503?text=Hallo%20Admin%20saya%20punya%20usulan%20yaitu:%" class="button" target="_blank">Saran Ebook</a>
+
+</body>
+  <head>
+    <body>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p>🔸️🔸️🔸️</p>
+    </body>
+    
+  </head>
+  
+</html>
